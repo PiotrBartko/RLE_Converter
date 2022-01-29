@@ -1,0 +1,58 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+.root
+{
+	 -fx-background-image: url("obraz.png");
+	
+	
+}
+
+
+
+
+.button1
+{
+    -fx-background-color: linear-gradient(#2A5058, #61a2b1);
+    -fx-font-family: "Arial Narrow";
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-border-radius: 20;
+ }
+
+.vbox
+{
+	 -fx-padding: 30;
+	 -fx-border-width: 0.5px;
+	
+}
+.labels
+{
+	-fx-font-family: "Arial Narrow";
+    -fx-font-weight: bold;
+    -fx-text-fill: black;
+	-fx-font-size: 16px;
+}
+.textfields
+{
+	-fx-background-color: null;
+	-fx-border-color: black ;  
+ 	-fx-border-width: 0.85px ;  
+ 	-fx-border-radius: 20;
+ 	-fx-text-fill: black;
+	-fx-font-size: 12px;
+	-fx-font-weight: bold;
+	
+}
+
+.radiobutttons .radio
+{
+	
+	-fx-text-fill: black;
+	-fx-font-size: 12px;
+	-fx-font-weight: bold;
+	-fx-background-color: null;
+	-fx-border-color: black ;  
+ 	-fx-border-width: 0.85px ;  
+	-fx-border-radius: 20;
+}
